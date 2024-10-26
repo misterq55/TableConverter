@@ -13,28 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="OpenXLSX">
-      <UniqueIdentifier>{e7c7910d-65a4-4e57-a7ae-09300f8ef155}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TableConverter.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="OpenXLSX\CMakeLists.txt">
-      <Filter>OpenXLSX</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="OpenXLSX\OpenXLSX.hpp">
-      <Filter>OpenXLSX</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="OpenXLSX\OpenXLSXConfig.cmake">
-      <Filter>OpenXLSX</Filter>
-    </None>
   </ItemGroup>
 </Project>
